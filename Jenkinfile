@@ -2,7 +2,9 @@ pipeline{
   agent any
   starges{
     stage("Hello"){
-      echo "Hello from MAIN branch
+      steps{
+        echo "Hello from MAIN branch
+      }
     }
   }
 }
