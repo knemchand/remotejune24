@@ -1,0 +1,8 @@
+pipeline{
+  agent any
+  starges{
+    stage("Hello"){
+      echo "Hello from MAIN branch
+    }
+  }
+}
